@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreetRaceKE.co.ke</title>
+    <style>
+        body{
+            padding-left: 50px;
+            padding-right:50px;
+            font-size: medium;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            
+        h1{
+            text-align: center;
+        }
+        #sign{
+            border-radius: 20px;
+            border-style: groove;
+            border-color:whitesmoke;
+            align-items: center;
+            padding-left: 80px;
+            padding-right: 80px;
+            font-size: small;
+        }
+        #personal{
+            border-radius: 20px;
+            text-align: center;
+        }
+        #vehicle{
+            border-radius: 20px;
+            text-align: center;
+        }
+        label{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        input{
+            border-radius: 15px;
+            border-color: black;
+            border-style: groove;
+            size: 10px; 
+        }
+        #log{
+            text-align: end;
+        }
+       select{
+         background-color: aqua;
+         font-weight: bold;
+         font-style: italic;
+       }
+
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h1> &#128664;Welcome to StreetRaceKE &#128664;</h1>
+        <form action="">
+            <fieldset id="sign">
+                <legend><b>SIGN UP</b></legend>
+                <fieldset id="personal">
+                    <legend><H3><I><B>PERSONAL&#128100; INFORMATION</B></I></H3></legend>
+                    <label for="fname">FirstName:</label>
+                    <input type="text" name="fname" id="fname" placeholder="enter your first name"><br><br>
+                    <label for="lname">LastName:</label>
+                    <input type="text" name="lname" id="lname" placeholder="enter your last name"><br><br>
+                    <label for="email">Email &#128231;:</label>
+                    <input type="email" name="email" id="email"placeholder="enter your email"><br><br>
+                    <label for="phone">Phone number &#128241;:</label><br>
+                    <select name="phone" id="phone">
+                        <option value="+254">+254</option>
+                        <option value="+257">+257</option>
+                        <option value="+256">+256</option>
+                        <option value="+252">+252</option>
+                    </select>
+                    <input type="tel" placeholder="Enter your phone number"><br><br>
+                    <label for="gender">gender:</label>
+                    <input type="radio" id="male" name="gender" >male&#128104;
+                    <input type="radio" id="female" name="gender" >female &#128105;<br><br>
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" minlength="8" required placeholder="enter password"><br><br>
+                    <label for="confirm">ConfirmPassword:</label>
+                    <input type="password" name="ConfirmPassword"id="ConfirmPassword" placeholder="Confirm password"><br><br>
+                </fieldset>
+                <fieldset id="vehicle">
+                    <legend><H3><B><I> VEHICLE &#128664; &#128678; INFORMATION</I></B></H3></legend>
+                    <label for="CAT">Vehicle Category:</label>
+                    <select name="CAT" id="CAT">
+                        <option value="Sportback">sportback</option>
+                        <option value="supercar">supercar</option>
+                        <option value="Sedan">sedan</option>
+                        <option value="SUV">SUV</option>
+                        <option value="Sportbike">sportbike</option>
+                        <option value="truck">truck</option>
+                    </select><br><br>
+                    <label for="vehicleType">select your vehicle type below: <sup><i>(optional)</i></sup></label><br>
+                    <sub><i>vehicles listed below are the only ones perimtted for the racing event</i></sub><br>
+                    <select name="vehicleType" id="vehicleType">
+                        <option value="AUDI">AUDI</option>
+                        <option value="MERCEDES">MERCEDES</option>
+                        <option value="SUBARU">SUBARU</option>
+                        <option value="BMW">BMW</option>
+                        <option value="TOYOTA">TOYOTA</option>
+                        <option value="PORSCHE">PORSCHE</option>
+                        <option value="MAZDA">MAZDA</option>
+                        <option value="CHEVY">CHEVY</option>
+                        <option value="HONDA">HONDA</option>
+                        <option value="KAWASAKI">KAWASAKI</option>
+                        <option value="SUZUKI">SUZUKI</option>
+                        <option value="YAMAHA">YAMAHA</option>
+                        <option value="APRILLIA">APRILLIA</option>
+                    </select><br><br>
+                    <label for="vehicleName">Vehicle Name:</label>
+                    <input type="text" name="vehicleName" id="vehicleName" placeholder="AUDI RS7 SPORTBACK"><br><br>
+                    <label for="YOM"> Manufacture info:</label>
+                    <input type="number" min="1990" max="2024" name="YOM" id="YOM" value="2000" required><br><br>
+                    <label for="RegNO">Registration number:</label>
+                    <input type="text" name="RegNO" id="RegNO"><br><br>
+                    
+                    <textarea  placeholder="give a brief description of modifications and upgrades on your car if any"> </textarea>
+                </fieldset><br> 
+                <center><input type="button" value="SIGN UP"></center>
+                <sub id="log">Already have an account?<a href="login.html">login</a></sub>
+            </fieldset><br>
+        </form>
+    </div>
+        
+    </div>
+</body>
+</html>

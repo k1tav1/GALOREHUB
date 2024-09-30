@@ -1,1 +1,5 @@
-# GALOREHUB
+# GALOREHUB![Screenshot 2024-09-30 222915](https://github.com/user-attachments/assets/24f3d96f-be35-4975-bde2-94f24c2e5625)
+![Screenshot 2024-09-30 222933](https://github.com/user-attachments/assets/0dbd9863-9b6e-4bc5-b797-e8cef2b33d26)
+![Screenshot 2024-09-30 223014](https://github.com/user-attachments/assets/28653471-69a9-4b5d-94cd-a22e2451ed30)
+![Screenshot 2024-09-30 223027](https://github.com/user-attachments/assets/cf596127-46b5-4dfd-a4f4-6f36cf506c0b)
+![Screenshot 2024-09-30 223041](https://github.com/user-attachments/assets/49fceb6d-9b59-4f7d-9d0f-6d5ab7e321a9)
